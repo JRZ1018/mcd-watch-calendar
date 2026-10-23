@@ -109,6 +109,33 @@ class SyncCalendarTests(unittest.TestCase):
             sync.sync_calendar(from_raw=self.raw_path, output_root=self.root)
         self.assertEqual(self.snapshot_public(), before)
 
+    def test_topic_feeds_filter_name_and_preserve_shared_event_uids(self):
+        raw = make_raw()
+        prototype = raw["result"]["structuredContent"]["data"]["dailyList"][0]["events"][0]
+        campaigns = []
+        for index, keyword in enumerate(("早餐", "麦咖啡", "联名")):
+            campaign = deepcopy(prototype)
+            campaign["activityCode"] = f"synthetic-topic-{index}"
+            campaign["articleDto"].update(title=keyword + "合成示例", content=keyword + "合成原文，不代表真实活动。")
+            campaigns.append(campaign)
+        raw["result"]["structuredContent"]["data"]["dailyList"][0]["events"] = campaigns
+        raw["result"]["content"][0]["text"] = "\n".join(c["articleDto"]["content"] for c in campaigns)
+        self.write_raw(raw)
+        sync.sync_calendar(from_raw=self.raw_path, output_root=self.root)
+        main = (self.root / "docs/calendar.ics").read_bytes().decode().replace("\r\n ", "")
+        main_uids = {line for line in main.split("\r\n") if line.startswith("UID:")}
+        for path, (keyword, label) in sync.TOPIC_FEEDS.items():
+            content = (self.root / path).read_bytes().decode()
+            unfolded = content.replace("\r\n ", "")
+            self.assertEqual(content.count("BEGIN:VEVENT\r\n"), 1)
+            self.assertIn("X-WR-CALNAME:麦麦不忘 · " + label + "\r\n", content)
+            self.assertIn("SUMMARY:" + keyword + "合成示例", unfolded)
+            uids = {line for line in unfolded.split("\r\n") if line.startswith("UID:")}
+            self.assertEqual(len(uids), 1)
+            self.assertTrue(uids.issubset(main_uids))
+            for line in content.split("\r\n"):
+                self.assertLessEqual(len(line.encode("utf-8")), 75)
+
     def test_missing_structure_does_not_become_an_empty_success(self):
         before = self.seed_public()
         raw = make_raw()

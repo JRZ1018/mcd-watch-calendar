@@ -4,11 +4,26 @@ const today = new Intl.DateTimeFormat("sv-SE", {timeZone:"Asia/Shanghai"}).forma
 const [year, month, day] = today.split("-");
 $("#today-day").textContent = day;
 $("#today-month").textContent = `${year} 年 ${Number(month)} 月 / 北京时间`;
-const feed = new URL("calendar.ics", window.location.href).href;
-$("#subscribe").href = feed.replace(/^https?:/, "webcal:");
+const feedOptions = {
+  "": {path:"calendar.ics", label:"全部活动"},
+  "早餐": {path:"feeds/breakfast.ics", label:"早餐"},
+  "麦咖啡": {path:"feeds/coffee.ics", label:"咖啡"},
+  "联名": {path:"feeds/collabs.ics", label:"联名周边"}
+};
+let activeFeed = new URL("calendar.ics", window.location.href).href;
+function setSubscription(topic) {
+  const option = feedOptions[topic];
+  activeFeed = new URL(option.path, window.location.href).href;
+  $("#subscribe").href = activeFeed.replace(/^https?:/, "webcal:");
+  document.querySelector(".download").href = activeFeed;
+  $("#subscribe").firstChild.textContent = topic ? `订阅${option.label} ` : "订阅日历 ";
+  $("#feed-note").textContent = `当前订阅范围：${option.label}。主题切换会同时切换订阅源；搜索和日期开关仅影响下方列表。`;
+  $("#copy-status").textContent = "";
+}
+$("#subscribe").href = activeFeed.replace(/^https?:/, "webcal:");
 $("#copy-feed").addEventListener("click", async () => {
-  try { await navigator.clipboard.writeText(feed); $("#copy-status").textContent = "已复制 HTTPS 订阅地址，在日历客户端中粘贴即可。"; }
-  catch { $("#copy-status").textContent = `订阅地址：${feed}`; }
+  try { await navigator.clipboard.writeText(activeFeed); $("#copy-status").textContent = "已复制 HTTPS 订阅地址，在日历客户端中粘贴即可。"; }
+  catch { $("#copy-status").textContent = `订阅地址：${activeFeed}`; }
 });
 let allEvents = [], keyword = "";
 function render() {
@@ -42,6 +57,7 @@ function render() {
 }
 document.querySelectorAll("[data-keyword]").forEach(button => button.addEventListener("click", () => {
   keyword = button.dataset.keyword;
+  setSubscription(keyword);
   document.querySelectorAll("[data-keyword]").forEach(other => other.setAttribute("aria-pressed", String(other === button)));
   render();
 }));

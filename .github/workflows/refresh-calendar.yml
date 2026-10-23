@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- docs/calendar.ics docs/calendar.md docs/events.json docs/status.json evidence/live-verification.json
+          git add -- docs/calendar.ics docs/calendar.md docs/events.json docs/status.json docs/feeds/breakfast.ics docs/feeds/coffee.ics docs/feeds/collabs.ics evidence/live-verification.json
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh verified activity calendar'
             git push

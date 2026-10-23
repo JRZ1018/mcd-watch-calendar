@@ -29,13 +29,18 @@ from mcd_watch.normalize import normalize_campaign
 
 SERVER = "https://mcp.mcd.cn"
 TOOL = "campaign-calendar"
+TOPIC_FEEDS = {
+    "docs/feeds/breakfast.ics": ("早餐", "早餐"),
+    "docs/feeds/coffee.ics": ("麦咖啡", "咖啡"),
+    "docs/feeds/collabs.ics": ("联名", "联名周边"),
+}
 PUBLIC_PATHS = (
     "docs/calendar.ics",
     "docs/calendar.md",
     "docs/events.json",
     "docs/status.json",
     "evidence/live-verification.json",
-)
+) + tuple(TOPIC_FEEDS)
 _EVENT_FIELDS = ("id", "title", "start", "end", "description", "source_text", "source_url")
 
 
@@ -123,6 +128,13 @@ def build_publications(raw: dict[str, Any], raw_path: Path) -> tuple[dict[str, b
         "docs/status.json": _json_bytes(status),
         "evidence/live-verification.json": _json_bytes(receipt),
     }
+    for path, (keyword, label) in TOPIC_FEEDS.items():
+        topic_calendar = to_ics(document, keyword=keyword).replace(
+            "X-WR-CALNAME:麦麦不忘日历\r\n",
+            f"X-WR-CALNAME:麦麦不忘 · {label}\r\n",
+            1,
+        )
+        payloads[path] = topic_calendar.encode("utf-8")
     if set(payloads) != set(PUBLIC_PATHS):
         raise SyncError("The generated publication file set was invalid.")
     return payloads, status

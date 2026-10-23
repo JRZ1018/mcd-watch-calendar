@@ -27,6 +27,8 @@ https://jrz1018.github.io/mcd-watch-calendar/calendar.ics
 
 站点已部署，订阅文件已验证返回 HTTP 200 和 `text/calendar`。也可以从仓库下载 [calendar.ics](docs/calendar.ics)，或阅读 [文字摘要](docs/calendar.md)。
 
+只想关注某类活动，可以在主页切换主题后复制订阅地址，或直接使用 [早餐](https://jrz1018.github.io/mcd-watch-calendar/feeds/breakfast.ics)、[咖啡](https://jrz1018.github.io/mcd-watch-calendar/feeds/coffee.ics)、[联名周边](https://jrz1018.github.io/mcd-watch-calendar/feeds/collabs.ics) 日历。主题按标题和来源原文关键词筛选；网页的自由搜索及日期开关只影响列表，不改变订阅内容。
+
 订阅刷新可能延迟，刷新频率和提醒通知由日历客户端控制；导入一个下载的 `.ics` 文件只获得当时的快照。项目没有常驻后台进程，不承诺实时提醒。日历覆盖当次官方响应的范围，不保证全年或全部门店活动。
 
 2026 年 10 月 23 日已完成一次真实 MCP 查询与本地核对：**27 条活动日历条目，覆盖 12 个展示日期**。这不是 27 个独立活动的计数。后续结果以 [当前状态](docs/status.json) 的获取时间为准；验证摘要见 [evidence/live-verification.json](evidence/live-verification.json)。

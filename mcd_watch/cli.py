@@ -51,8 +51,9 @@ def preflight() -> int:
     live = False
     if receipt.exists():
         evidence = json.loads(receipt.read_text(encoding="utf-8"))
+        count = evidence.get("event_count")
         live = (evidence.get("mode") == "live" and evidence.get("tool") == "campaign-calendar"
-                and evidence.get("event_count", 0) > 0 and bool(evidence.get("raw_sha256")))
+                and type(count) is int and count >= 0 and bool(evidence.get("raw_sha256")))
     report = {"missing_files": missing, "official_declaration_matches": blob == DECLARATION_BLOB,
               "live_receipt_present": live,
               "note": "本地检查不能代替参赛者声明确认、GitHub发布和官方报名成功回复。"}

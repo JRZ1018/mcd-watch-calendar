@@ -25,6 +25,8 @@ Token 通过 [官方开放平台](https://open.mcd.cn/mcp) 的手机号登录、
 4. `mcd_watch/calendar.py` 生成全天 ICS 和 Markdown。稳定活动标识加展示日期确定 UID；ICS 使用 CRLF、UTF-8 75 字节折行和排他的 `DTEND`。
 5. `scripts/sync_calendar.py` 连接上述流程，生成 `docs/calendar.ics`、`docs/calendar.md`、`docs/events.json`、`docs/status.json` 以及 `evidence/live-verification.json`。只有成功后才更新公开文件。
 
+同次成功查询还会生成三个主题订阅文件：`docs/feeds/breakfast.ics`（关键词“早餐”）、`coffee.ics`（“麦咖啡”）及 `collabs.ics`（“联名”）。主题按标题、说明和来源原文筛选，保留完整日历中的 UID；三个日历具有不同名称。所有公开文件一起完成生成与校验，再替换原文件；替换失败时尝试恢复原内容。
+
 公开输出不复制原始响应中的账号订阅状态、订阅场景、App 跳转链接或图片列表，也不把未解释的 `price` 字段转换为“免费”。项目未调用领券、下单、取消订单、积分兑换或抽奖工具。
 
 **日期语义：** `dailyList[].date` 是活动日历的展示日期，不能据此认定活动当天开售或当天截止。每个展示日期上的活动各自生成一个全天条目，标题附“活动日历条目”，说明中保留该含义和来源正文。同一活动在多天出现时不会合并推断其有效期；活动规则仍以官方原文及实际渠道为准。

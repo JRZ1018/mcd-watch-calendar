@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//McdWatch//Reviewed Activity Calendar 1.0//ZH-CN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:麦麦不忘 · 早餐
+BEGIN:VEVENT
+UID:c08f5a8ee05459c136967ee3c83b08aceb423520f6c50bccd552d14ac7baf4c2@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T054724Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:早餐爆款回归，快来pick你的厚松饼堡！📣｜活动
+ 日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：返工别紧张，厚松饼堡让你松软一下🫵\n🥞甜
+ 甜松饼，软软口感\n🍁经典枫糖风味和浓郁巧克力味两
+ 款可选🍫\n10月8日起，指定套餐可享早餐卡6折优惠\n3件
+ 套到手只要15元起，快来优惠吃
+END:VEVENT
+BEGIN:VEVENT
+UID:1e06f78a2d3636f54558bc3b178b2ec5fec22b9050fe4b072b4af1d316a1a30d@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T054724Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:“韩”风刮到了四件套~龙焰鸡腿堡来袭！｜活动日
+ 历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：🍔麦金卡点「龙焰鸡腿堡」四件套29元起\n🍗
+ 韩式辣酱碰撞青梅黄油，爆脆鸡腿排多汁裹酱！\n✨一张
+ 麦金卡包揽全天吃麦特权\n6折早餐、9.9元麦咖啡、满额
+ 免配统统安排\n😋快来打卡美味，这场韩式盛宴等你加
+ 入！
+END:VEVENT
+BEGIN:VEVENT
+UID:8bf385a48440080fbee43da21e53ff90f2223f22029a62c98dfcb6bdb585a6be@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T054724Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:学生专属！49元150天麦金学期卡💳｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：💰仅0.33元/天，到手150天吃麦特权！\n5️⃣折
+ 起吃超值四件套、6折吃早餐\n🛵每日两次满额免配，9.9
+ 元麦咖啡\n🦉开卡还送多邻国月卡，美味和学习一步到
+ 位\n👛新学期钱包不吃紧，开心吃麦快乐学习！
+END:VEVENT
+BEGIN:VEVENT
+UID:e809bbccab4e0cc2058af087e80b2e2f96eb566866a41a04e4dcaa5492b53b22@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T054724Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:麦咖啡一早现磨🥳元气早餐震撼来袭！｜活动日历
+ 条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：☕甄选 2024IIAC 国际咖啡品鉴大赛“金奖“咖啡
+ 豆\n🥪多款人气早餐主食随心挑选，满足你的多种需求\n
+ ✨清晨能量一键配齐，14.9元起，开启你的元气一天
+END:VEVENT
+BEGIN:VEVENT
+UID:921a29758c5dc567a532bd261a5eb57e2fd26da28553f413ecb4fd10888049ae@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T054724Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:“韩”风刮到了四件套~龙焰鸡腿堡来袭！｜活动日
+ 历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-28），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：🍔麦金卡点「龙焰鸡腿堡」四件套29元起\n🍗
+ 韩式辣酱碰撞青梅黄油，爆脆鸡腿排多汁裹酱！\n✨一张
+ 麦金卡包揽全天吃麦特权\n6折早餐、9.9元麦咖啡、满额
+ 免配统统安排\n😋快来打卡美味，这场韩式盛宴等你加
+ 入！
+END:VEVENT
+BEGIN:VEVENT
+UID:0992e285acb45cfbe27b518e83a8f938c86f79fdd0325f68a56663fecfd6759e@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T054724Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:早餐爆款回归，快来pick你的厚松饼堡！📣｜活动
+ 日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-29），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：返工别紧张，厚松饼堡让你松软一下🫵\n🥞甜
+ 甜松饼，软软口感\n🍁经典枫糖风味和浓郁巧克力味两
+ 款可选🍫\n10月8日起，指定套餐可享早餐卡6折优惠\n3件
+ 套到手只要15元起，快来优惠吃
+END:VEVENT
+BEGIN:VEVENT
+UID:5acf1a742c9ec2794224818322a948564f29ac2b3c126a73d3218406eef66ee8@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T054724Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:麦咖啡一早现磨🥳元气早餐震撼来袭！｜活动日历
+ 条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-11-02），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：☕甄选 2024IIAC 国际咖啡品鉴大赛“金奖“咖啡
+ 豆\n🥪多款人气早餐主食随心挑选，满足你的多种需求\n
+ ✨清晨能量一键配齐，14.9元起，开启你的元气一天
+END:VEVENT
+END:VCALENDAR
