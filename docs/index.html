@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="麦麦不忘：从麦当劳官方 MCP 整理活动日历，按兴趣查看并订阅 ICS。独立参赛作品。">
+  <title>麦麦不忘 · 把好日子记下来</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="./" aria-label="麦麦不忘首页"><span class="brand-icon" aria-hidden="true">23<span>◦</span></span>麦麦不忘</a><a class="source-link" href="https://github.com/JRZ1018/mcd-watch-calendar" target="_blank" rel="noopener">项目源码 ↗</a></header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">MCD WATCH / 活动日历</p><h1 id="hero-title">把好日子，<br><span>记下来。</span></h1><p class="intro">从官方活动日历，到你的日程。<br>早餐、新品、联名周边，感兴趣的日子慢慢挑。</p><div class="actions"><a class="button primary" id="subscribe" href="calendar.ics">订阅日历 <span aria-hidden="true">↗</span></a><button class="button secondary" id="copy-feed" type="button">复制订阅地址</button><a class="download" href="calendar.ics" download>下载 ICS ↓</a></div><p id="copy-status" class="feedback" role="status" aria-live="polite"></p></div>
+      <aside class="date-ticket" aria-label="活动日历状态"><p class="ticket-label">YOUR NEXT LITTLE PLAN</p><div class="ticket-day" id="today-day">—</div><p class="ticket-month" id="today-month">北京时间</p><div class="ticket-rule"></div><div class="ticket-stats"><span><b id="event-count">—</b> 条日历条目</span><span><b id="day-count">—</b> 个展示日期</span></div><p class="ticket-foot">好日子，不必靠记性。</p></aside>
+    </section>
+    <section class="calendar-section" aria-labelledby="calendar-title">
+      <div class="section-heading"><div><p class="eyebrow">THE CALENDAR</p><h2 id="calendar-title">接下来，值得记的一天。</h2></div><p class="updated" id="updated">正在读取最近一次成功查询…</p></div>
+      <div class="toolbar"><div class="filters" role="group" aria-label="活动主题"><button type="button" data-keyword="" aria-pressed="true">全部</button><button type="button" data-keyword="早餐" aria-pressed="false">早餐</button><button type="button" data-keyword="麦咖啡" aria-pressed="false">咖啡</button><button type="button" data-keyword="联名" aria-pressed="false">联名周边</button></div><label class="search-label"><span class="sr-only">搜索活动与原文</span><input type="search" id="search" placeholder="搜索你感兴趣的活动" autocomplete="off"></label></div>
+      <label class="future-toggle"><input type="checkbox" id="future-only" checked> 只看今天及之后的展示日期</label>
+      <p class="notice">这里记录的是官方日历的<strong>展示日期</strong>，不等于活动开售日、截止日。具体条件请展开原文查看。</p>
+      <div id="activity-list" aria-live="polite"><p class="empty">正在整理活动…</p></div>
+    </section>
+    <section class="howto" aria-labelledby="howto-title"><p class="eyebrow">A LITTLE HELP</p><h2 id="howto-title">留在你的日历里。</h2><div class="howto-grid"><div><span class="step">01</span><h3>订阅，持续接收更新</h3><p>复制订阅地址，在日历客户端的“添加订阅日历”或“从 Web 订阅”中粘贴。支持订阅的客户端也可直接点击上方按钮。</p></div><div><span class="step">02</span><h3>导入，留一份快照</h3><p>下载 ICS 后导入 Outlook、Apple 日历等。单次导入不会自动获取后续更新；提醒时间请在客户端设置。</p></div><div><span class="step">03</span><h3>看一眼更新时间</h3><p>服务每六小时尝试从官方 MCP 更新，调度和客户端刷新可能延迟。查询失败时保留最后成功数据。</p></div></div></section>
+  </main>
+  <footer><span>麦麦不忘 / MCD WATCH</span><p>麦当劳程序员创意开发大赛独立参赛作品，非麦当劳官方产品。活动详情、价格与供应以官方实时信息为准。</p><a href="https://github.com/JRZ1018/mcd-watch-calendar/blob/main/MCP_INTEGRATION.md">查看数据说明 ↗</a></footer>
+</body>
+</html>

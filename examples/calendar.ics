@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//McdWatch//Reviewed Activity Calendar 1.0//ZH-CN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:【模拟演示】麦麦不忘日历
+X-WR-CALDESC:模拟演示数据，不代表真实活动或优惠。
+BEGIN:VEVENT
+UID:c9a6166af48710997d234427faaecfa69b12cf7e2d335f07d516f3e16fb2c40f@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T040000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:【模拟演示】周末活动示例
+DESCRIPTION:模拟演示，不代表真实活动或优惠。\n\n合成数
+ 据，仅演示两天活动如何导出，不代表任何真实活动或
+ 优惠。\n\n模拟来源文字（非真实优惠）：模拟原文：周
+ 末活动示例于2026年10月24日至25日进行。
+END:VEVENT
+BEGIN:VEVENT
+UID:a476c06749a2de122a2872f3f9d9f60b9d15edd68f3c395c3c90172383bce8d5@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T040000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:【模拟演示】秋日主题示例
+DESCRIPTION:模拟演示，不代表真实活动或优惠。\n\n合成数
+ 据，用于演示单日活动；不代表官方公告。\n\n模拟来源
+ 文字（非真实优惠）：模拟原文：秋日主题示例，日期20
+ 26年10月28日。
+END:VEVENT
+END:VCALENDAR

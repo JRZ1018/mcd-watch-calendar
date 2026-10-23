@@ -1,0 +1,8 @@
+private/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+tests/tmp*/
