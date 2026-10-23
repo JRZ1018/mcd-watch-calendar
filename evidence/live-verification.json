@@ -2,13 +2,13 @@
   "mode": "live",
   "server": "https://mcp.mcd.cn",
   "tool": "campaign-calendar",
-  "retrieved_at": "2026-10-23T11:44:41.536809+00:00",
-  "event_count": 27,
-  "day_count": 12,
+  "retrieved_at": "2026-10-23T17:12:56.080769+00:00",
+  "event_count": 28,
+  "day_count": 13,
   "range_start": "2026-10-20",
   "range_end": "2026-11-03",
-  "raw_sha256": "18eb41d57d9a4e5efb9c2deb16f991a447fbfc2d1f63a8b0049ca987c9b8b9ed",
-  "normalized_sha256": "d6fa2fa9d77383e327bf748526156d5360d6688b1fdcc29e8ad80448fa0ab135",
+  "raw_sha256": "472d5012290cecb02d386503925a9aee82d3f73d5929d5edcdda6425d3efeed4",
+  "normalized_sha256": "e49b4f791101636e924136c07bf96dc6fc3fad6e97bf52b6ced19cf5219f1c45",
   "source_text_verified": true,
   "calendar_dates_are_display_dates": true
 }

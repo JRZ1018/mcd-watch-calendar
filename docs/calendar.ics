@@ -6,7 +6,7 @@ X-WR-CALNAME:麦麦不忘日历
 BEGIN:VEVENT
 UID:0b906bb7e9e39df74cdd9eefc0f0f8bf710167c2f4f7d847704a614e5ee93b92@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:麦当劳 X PEACEMINUSONE｜活动日历条目
@@ -21,7 +21,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:d2fc1daad449c38595bcaaab15e70d940525f3580eafc12701a83e312c397b5c@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:麦当劳 X PEACEMINUSONE｜活动日历条目
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:995d587cd69c40bd7a2dd4394482786d3d242e540078da6a2e1e5179919b025e@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:麦当劳「我就喜欢」限定丝巾正式开售🔥｜活动日
@@ -51,194 +51,9 @@ DESCRIPTION:这是官方活动日历的展示日期（2026-10-22），不
  潮流造型
 END:VEVENT
 BEGIN:VEVENT
-UID:aac3cfbf4a92d4bf8f25945b2444acce125629b8b5d4417acdf239005fb81e42@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:韩式风味蘸酱上新❤️就「酱」心有所「薯」｜活
- 动日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：🆕韩式辣椒黄油风味酱\n韩式辣酱碰撞青梅，
- 裹挟黄油香气\n鸡薯双全盒仅需15.9元起✨getGD同款花式比
- 心\n🆕韩式烟熏芝士风味酱\n浓郁芝香邂逅韩式香辛风味
- ，烟熏香气层层释放\n蘸酱炸鸡仅需11.9元起🍗\n炸鸡薯
- 饼蘸酱我全都喜欢！\n10月8日 10:30起正式开售⏰
-END:VEVENT
-BEGIN:VEVENT
-UID:c08f5a8ee05459c136967ee3c83b08aceb423520f6c50bccd552d14ac7baf4c2@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:早餐爆款回归，快来pick你的厚松饼堡！📣｜活动
- 日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：返工别紧张，厚松饼堡让你松软一下🫵\n🥞甜
- 甜松饼，软软口感\n🍁经典枫糖风味和浓郁巧克力味两
- 款可选🍫\n10月8日起，指定套餐可享早餐卡6折优惠\n3件
- 套到手只要15元起，快来优惠吃
-END:VEVENT
-BEGIN:VEVENT
-UID:d2dd104b424c660b4808cb6c1c5f293722f24d72221389e8befddf06e1177ca6@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:快来一起参加麦麦派对吧！｜活动日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：遛娃好去处🎉麦当劳趣读派对！\n6大环节，趣
- 味互动✨\n好吃又好玩，快乐持续加倍！\n👇一起领取“
- 读书小达人“证书吧~
-END:VEVENT
-BEGIN:VEVENT
-UID:9a2bf98e02483e9e5802e60bbe39290ac59ca23e997a8068775e1d85c85eb9ca@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:过家家派对上线，快来一起解锁梦想职业｜活动日
- 历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：过家家派对就要开始啦!\n萌娃cosplay梦想职业，
- 精美职业服带回家\nDIY 创意手工，想象力在指尖自由绽
- 放\n9月9日到店解锁过家家派对\n粉红姐姐带你玩转麦当
- 劳，开启童趣一天~
-END:VEVENT
-BEGIN:VEVENT
-UID:6ce47a05497a2a8ab86e0b83b8a76e4c7260b22df1aa44476d9d5cb310642eda@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:乐享90分钟高质量亲子时间｜活动日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：打造高质量陪伴时光🎊\n9本热门书籍且每月更
- 新！\n更有开心乐园餐+随机玩具一份🎁\n好吃又好玩！
- 快报名参加吧~
-END:VEVENT
-BEGIN:VEVENT
-UID:1e06f78a2d3636f54558bc3b178b2ec5fec22b9050fe4b072b4af1d316a1a30d@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:“韩”风刮到了四件套~龙焰鸡腿堡来袭！｜活动日
- 历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：🍔麦金卡点「龙焰鸡腿堡」四件套29元起\n🍗
- 韩式辣酱碰撞青梅黄油，爆脆鸡腿排多汁裹酱！\n✨一张
- 麦金卡包揽全天吃麦特权\n6折早餐、9.9元麦咖啡、满额
- 免配统统安排\n😋快来打卡美味，这场韩式盛宴等你加
- 入！
-END:VEVENT
-BEGIN:VEVENT
-UID:04f91aadae8e7f35d2ededd28abb49d76c732c955d9bd2f42a55260964630586@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:麦当劳联动G-DRAGON｜活动日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：带来韩式风味系列新品❗️\n龙焰鸡腿堡三件套
-  26.9 元起即刻开吃🍔\n韩式辣酱搭配酥脆多汁鸡腿排🤤\
- n还可升级29.9元龙焰芝士棒鸡腿堡三件套，\n两根马苏里
- 拉拉丝芝士条，热时双倍拉丝更过瘾🧀\n10月8日 10:30 准
- 时开售⏰You lovin' it？
-END:VEVENT
-BEGIN:VEVENT
-UID:f3b46a4944088950dd89ad30e14de292daabf30550f34de69d797345abb31fcc@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:🩶灰白撞色，灰焰圆筒酷爽登场｜活动日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：🩶灰焰圆筒酷爽上新！\n🍦浓郁香草味碰上酷
- 灰脆筒，灰白撞色吸睛。\n✨入口绵密丝滑，一口咬下筒
- 壳咔嚓酥脆。\n😋绵密与香脆层层交织，一口解锁甜酷
- 反差！\n还在等什么，马上尝新~
-END:VEVENT
-BEGIN:VEVENT
-UID:89352a15a8e29c930f447bde83c06f4f88cbcebae5092ddaa084cc22a3bb699e@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:🍫麦咖啡13.9r浓浓黑巧来啦！｜活动日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：地道浓醇黑巧，风味浓郁醇厚\n200目精细研磨工
- 艺，触感丝滑如绒\n戳下方，速来解锁！
-END:VEVENT
-BEGIN:VEVENT
-UID:7d79aacdfc70ca386462db1b117448d91580c11126a756f3d32390bbf8b92b77@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:麦当劳 X PEACEMINUSONE｜活动日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：周边第二弹——联名徽章正式发售\n任意餐品消
- 费加39.9元即可得\n集结MCD爱心、小雏菊和经典薯条元素
- 🍟\n一套三枚🖤限量珍藏\n10月15日10:45开售\n更有APP专享
- 积分抢先购10:40开抢
-END:VEVENT
-BEGIN:VEVENT
-UID:580a55aa7b8f4b177298547ad3d8e6e99175223af2ae3fca393b2998ad287a64@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:麦当劳 X PEACEMINUSONE｜活动日历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：GD同款联名复古棒球帽\n任意餐品消费加39.9元即
- 可得\n经典红黄配色搭配复古轮廓，MV同款灵感重现\n更
- 有标志性小雏菊刺绣图案点缀\n10月8日10:45开售\n更有APP
- 专享积分抢先购10:40开抢\n与GD一起探索潮流新篇章🖤
-END:VEVENT
-BEGIN:VEVENT
-UID:926b3b87d4db6fe1c6c39193bb43a4401e75ee89231273456d801c80bb1d90cd@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:麦当劳「我就喜欢」限定丝巾正式开售🔥｜活动日
- 历条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：丝巾搭配棒球帽的潮流谁懂😎\n任意餐品消费
- 加 39.9 元即可得\n颈间、包袋、手腕、头饰一巾多玩🤔\n
- 叠搭联名棒球帽&徽章随心玩出专属潮流造型✨\n10月22日1
- 0:45开售\n更有APP专享积分抢先购10:40开抢\nget时尚icon同款
- 潮流造型
-END:VEVENT
-BEGIN:VEVENT
 UID:8bf385a48440080fbee43da21e53ff90f2223f22029a62c98dfcb6bdb585a6be@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:学生专属！49元150天麦金学期卡💳｜活动日历条目
@@ -251,40 +66,9 @@ DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
  位\n👛新学期钱包不吃紧，开心吃麦快乐学习！
 END:VEVENT
 BEGIN:VEVENT
-UID:3030dca5f88cfef2e3fe19411ce4de5fac225aa3c6696c0084148cee92f8d3ce@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:🫐一口爆汁！蓝莓爆爆珠麦旋风上新｜活动日历条
- 目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：🫐蓝莓爆爆珠麦旋风上新！\n💜清甜蓝莓碰上
- 醇厚奶香，酸甜清爽。\n💥真实蓝莓原浆x爆爆珠，颗颗
- 爆汁好惊喜。\n😋绵密冰淇淋撞上弹爽口感，莓好滋味
- 层层爆开！\n还在等什么，马上尝新~
-END:VEVENT
-BEGIN:VEVENT
-UID:e809bbccab4e0cc2058af087e80b2e2f96eb566866a41a04e4dcaa5492b53b22@mcd-wa
- tch-calendar
-DTSTAMP:20261023T114441Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:麦咖啡一早现磨🥳元气早餐震撼来袭！｜活动日历
- 条目
-DESCRIPTION:这是官方活动日历的展示日期（2026-10-23），不
- 代表当天新开售，也不代表活动结束日期。正文中的开
- 售日期、活动规则等信息请以来源原文为准。\n\n来源原
- 文证据：☕甄选 2024IIAC 国际咖啡品鉴大赛“金奖“咖啡
- 豆\n🥪多款人气早餐主食随心挑选，满足你的多种需求\n
- ✨清晨能量一键配齐，14.9元起，开启你的元气一天
-END:VEVENT
-BEGIN:VEVENT
 UID:814dc4f6fe6162f47d64f990f3c46626955f8cd961abb103a347d588cbbcb824@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:韩式风味蘸酱上新❤️就「酱」心有所「薯」｜活
@@ -299,23 +83,237 @@ DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
  饼蘸酱我全都喜欢！\n10月8日 10:30起正式开售⏰
 END:VEVENT
 BEGIN:VEVENT
-UID:7e90073b64990c1f3efb4d3c105b2baea7c95a3a7e6ddf05b470cc0a3057b65e@mcd-wa
+UID:565ccdf10a637d00446078ab914b5eb35e494bdedf6555ecd887e2e9bf303403@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
-SUMMARY:预约麦金喜抽奖，🉐[积分霸王餐]｜活动日历条目
+SUMMARY:早餐爆款回归，快来pick你的厚松饼堡！📣｜活动
+ 日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：返工别紧张，厚松饼堡让你松软一下🫵\n🥞甜
+ 甜松饼，软软口感\n🍁经典枫糖风味和浓郁巧克力味两
+ 款可选🍫\n10月8日起，指定套餐可享早餐卡6折优惠\n3件
+ 套到手只要15元起，快来优惠吃
+END:VEVENT
+BEGIN:VEVENT
+UID:fc4bf141b0b43194ff6d11a6352eff04a5601153e228726167c533444050c082@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:快来一起参加麦麦派对吧！｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：遛娃好去处🎉麦当劳趣读派对！\n6大环节，趣
+ 味互动✨\n好吃又好玩，快乐持续加倍！\n👇一起领取“
+ 读书小达人“证书吧~
+END:VEVENT
+BEGIN:VEVENT
+UID:7e90073b64990c1f3efb4d3c105b2baea7c95a3a7e6ddf05b470cc0a3057b65e@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:参与麦金喜抽奖，🉐[积分霸王餐]｜活动日历条目
 DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
  代表当天新开售，也不代表活动结束日期。正文中的开
  售日期、活动规则等信息请以来源原文为准。\n\n来源原
  文证据：🍔抓住这次0元吃堡的机会！\n💪麦金喜抽[积
  分霸王餐]\n🍔龙焰鸡腿堡/麦辣鸡腿堡\n连续90天麦麦请
- 客美滋滋👇\n抽奖时间：10月24日 00:00开始⏰速戳预约！
+ 客美滋滋👇\n抽奖时间：10月24日⏰
+END:VEVENT
+BEGIN:VEVENT
+UID:f3092f9650e5856087b733f71a27dc063ac4fa8aae1803854bdcbe4ee1b07c22@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:过家家派对上线，快来一起解锁梦想职业｜活动日
+ 历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：过家家派对就要开始啦!\n萌娃cosplay梦想职业，
+ 精美职业服带回家\nDIY 创意手工，想象力在指尖自由绽
+ 放\n9月9日到店解锁过家家派对\n粉红姐姐带你玩转麦当
+ 劳，开启童趣一天~
+END:VEVENT
+BEGIN:VEVENT
+UID:2d6c60295b565d6a3250d88ba046756edf147f8dada64ada875f8bbedf875d4b@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:乐享90分钟高质量亲子时间｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：打造高质量陪伴时光🎊\n9本热门书籍且每月更
+ 新！\n更有开心乐园餐+随机玩具一份🎁\n好吃又好玩！
+ 快报名参加吧~
+END:VEVENT
+BEGIN:VEVENT
+UID:112872f1fce84a85e91bd49eb5e47ba6141f620de97aa2a0c3c25cf4febe6f69@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:“韩”风刮到了四件套~龙焰鸡腿堡来袭！｜活动日
+ 历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：🍔麦金卡点「龙焰鸡腿堡」四件套29元起\n🍗
+ 韩式辣酱碰撞青梅黄油，爆脆鸡腿排多汁裹酱！\n✨一张
+ 麦金卡包揽全天吃麦特权\n6折早餐、9.9元麦咖啡、满额
+ 免配统统安排\n😋快来打卡美味，这场韩式盛宴等你加
+ 入！
+END:VEVENT
+BEGIN:VEVENT
+UID:5ef52dd8e421d02e0db04604c45257f05e8992785b3b79114171dfbc74aabcc8@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:麦当劳联动G-DRAGON｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：带来韩式风味系列新品❗️\n龙焰鸡腿堡三件套
+  26.9 元起即刻开吃🍔\n韩式辣酱搭配酥脆多汁鸡腿排🤤\
+ n还可升级29.9元龙焰芝士棒鸡腿堡三件套，\n两根马苏里
+ 拉拉丝芝士条，热时双倍拉丝更过瘾🧀\n10月8日 10:30 准
+ 时开售⏰You lovin' it？
+END:VEVENT
+BEGIN:VEVENT
+UID:110adda6eb77bbe7f77209e3744b1848b14b2d0861bc3efa379c99056e2ee11c@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🩶灰白撞色，灰焰圆筒酷爽登场｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：🩶灰焰圆筒酷爽上新！\n🍦浓郁香草味碰上酷
+ 灰脆筒，灰白撞色吸睛。\n✨入口绵密丝滑，一口咬下筒
+ 壳咔嚓酥脆。\n😋绵密与香脆层层交织，一口解锁甜酷
+ 反差！\n还在等什么，马上尝新~
+END:VEVENT
+BEGIN:VEVENT
+UID:0e468612d1e1dfceb9dc94f737cb2df4c00557ba83161bd394713f722126833d@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🍫麦咖啡13.9r浓浓黑巧来啦！｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：地道浓醇黑巧，风味浓郁醇厚\n200目精细研磨工
+ 艺，触感丝滑如绒\n戳下方，速来解锁！
+END:VEVENT
+BEGIN:VEVENT
+UID:fd207d32c1c7541d5afe0ec1b0237d13beb0b7f36a0c919af521357805bae86a@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:麦当劳 X PEACEMINUSONE｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：周边第二弹——联名徽章正式发售\n任意餐品消
+ 费加39.9元即可得\n集结MCD爱心、小雏菊和经典薯条元素
+ 🍟\n一套三枚🖤限量珍藏\n10月15日10:45开售\n更有APP专享
+ 积分抢先购10:40开抢
+END:VEVENT
+BEGIN:VEVENT
+UID:d9f9616c17bea17180db3bb365ef3f839ad06bfccb761721db85535f1ce7319e@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:麦当劳 X PEACEMINUSONE｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：GD同款联名复古棒球帽\n任意餐品消费加39.9元即
+ 可得\n经典红黄配色搭配复古轮廓，MV同款灵感重现\n更
+ 有标志性小雏菊刺绣图案点缀\n10月8日10:45开售\n更有APP
+ 专享积分抢先购10:40开抢\n与GD一起探索潮流新篇章🖤
+END:VEVENT
+BEGIN:VEVENT
+UID:4a814b745b587bd3ed5e2bec8c28886837d9b42b3e6a70560c02f03459571e9d@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:麦当劳「我就喜欢」限定丝巾正式开售🔥｜活动日
+ 历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：丝巾搭配棒球帽的潮流谁懂😎\n任意餐品消费
+ 加 39.9 元即可得\n颈间、包袋、手腕、头饰一巾多玩🤔\n
+ 叠搭联名棒球帽&徽章随心玩出专属潮流造型✨\n10月22日1
+ 0:45开售\n更有APP专享积分抢先购10:40开抢\nget时尚icon同款
+ 潮流造型
+END:VEVENT
+BEGIN:VEVENT
+UID:5cf0dcb67fbedfc4beff16442c9e7ee32c6382df43b241b1c699d2a1a2e3d676@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:学生专属！49元150天麦金学期卡💳｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：💰仅0.33元/天，到手150天吃麦特权！\n5️⃣折
+ 起吃超值四件套、6折吃早餐\n🛵每日两次满额免配，9.9
+ 元麦咖啡\n🦉开卡还送多邻国月卡，美味和学习一步到
+ 位\n👛新学期钱包不吃紧，开心吃麦快乐学习！
+END:VEVENT
+BEGIN:VEVENT
+UID:773e410d19593e01009161a1358e0ef08ac4453130795f9537f107ad2f80f806@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🫐一口爆汁！蓝莓爆爆珠麦旋风上新｜活动日历条
+ 目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：🫐蓝莓爆爆珠麦旋风上新！\n💜清甜蓝莓碰上
+ 醇厚奶香，酸甜清爽。\n💥真实蓝莓原浆x爆爆珠，颗颗
+ 爆汁好惊喜。\n😋绵密冰淇淋撞上弹爽口感，莓好滋味
+ 层层爆开！\n还在等什么，马上尝新~
+END:VEVENT
+BEGIN:VEVENT
+UID:6a6e6ff334fdd4b8faa40cee2dd8d3b21cac00caff1e80377962a63c4e733ece@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:麦咖啡一早现磨🥳元气早餐震撼来袭！｜活动日历
+ 条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-24），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：☕甄选 2024IIAC 国际咖啡品鉴大赛“金奖“咖啡
+ 豆\n🥪多款人气早餐主食随心挑选，满足你的多种需求\n
+ ✨清晨能量一键配齐，14.9元起，开启你的元气一天
 END:VEVENT
 BEGIN:VEVENT
 UID:4611e1d18dcb8eeb1bdb59b3a4429950b277ce644590bc5c74b98d24328d2874@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:麦当劳联动G-DRAGON｜活动日历条目
@@ -329,9 +327,23 @@ DESCRIPTION:这是官方活动日历的展示日期（2026-10-25），不
  时开售⏰You lovin' it？
 END:VEVENT
 BEGIN:VEVENT
+UID:13dadc44d59ddbbfac0ff46db287ec4e840166e86d587049348104806575cbcf@mcd-wa
+ tch-calendar
+DTSTAMP:20261023T171256Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:下周麦麦省优惠预告来啦😁｜活动日历条目
+DESCRIPTION:这是官方活动日历的展示日期（2026-10-26），不
+ 代表当天新开售，也不代表活动结束日期。正文中的开
+ 售日期、活动规则等信息请以来源原文为准。\n\n来源原
+ 文证据：🌟麦麦省下周优惠抢先预告\n🍔11.9元轻松get麦
+ 辣鸡腿堡\n🍗19.9元解锁王牌炸鸡两件套\n😆享炸鸡美味
+ ，给快乐充电\n👇提前预约，工作日秒下单
+END:VEVENT
+BEGIN:VEVENT
 UID:921a29758c5dc567a532bd261a5eb57e2fd26da28553f413ecb4fd10888049ae@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:“韩”风刮到了四件套~龙焰鸡腿堡来袭！｜活动日
@@ -348,7 +360,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:0992e285acb45cfbe27b518e83a8f938c86f79fdd0325f68a56663fecfd6759e@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:早餐爆款回归，快来pick你的厚松饼堡！📣｜活动
@@ -364,7 +376,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:d1f0e3196db6598aa3acf0565d49d61c01b0fa90e66fb77a772547dafa461965@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:🍫麦咖啡13.9r浓浓黑巧来啦！｜活动日历条目
@@ -377,7 +389,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:52f9f977b3a96979ce9a06391bf8e818721fd02a5be87d05cc2ab4e774998573@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:🩶灰白撞色，灰焰圆筒酷爽登场｜活动日历条目
@@ -392,7 +404,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:5acf1a742c9ec2794224818322a948564f29ac2b3c126a73d3218406eef66ee8@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:麦咖啡一早现磨🥳元气早餐震撼来袭！｜活动日历
@@ -407,7 +419,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:04968007cfd839b03effbbd434e4618b109b68c15529a1f5907e125c8c060e66@mcd-wa
  tch-calendar
-DTSTAMP:20261023T114441Z
+DTSTAMP:20261023T171256Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:🫐一口爆汁！蓝莓爆爆珠麦旋风上新｜活动日历条
