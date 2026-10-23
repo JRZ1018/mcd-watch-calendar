@@ -1,5 +1,7 @@
 # 麦麦不忘 · McD Watch Calendar
 
+[在线体验](https://jrz1018.github.io/mcd-watch-calendar/) · [订阅日历](https://jrz1018.github.io/mcd-watch-calendar/calendar.ics) · [报名申请](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1096)
+
 把麦当劳官方活动日历变成可订阅、可导入的日历，让活动信息出现在平时查看日程的地方。
 
 本项目面向希望集中查看活动、按关键词筛选信息的用户。配套 [Skill](skills/mcd-watch-calendar/SKILL.md) 调用麦当劳中国 MCP，保留来源原文，生成标准 `.ics` 日历和 Markdown 摘要。也可以直接运行 Python 命令，无需模型 API。
@@ -17,13 +19,13 @@
 
 ## 查看与订阅
 
-部署成功后，访问 [日历主页](https://jrz1018.github.io/mcd-watch-calendar/)，或把以下地址添加到支持 URL 订阅的日历客户端：
+访问 [日历主页](https://jrz1018.github.io/mcd-watch-calendar/)，或把以下地址添加到支持 URL 订阅的日历客户端：
 
 ```text
 https://jrz1018.github.io/mcd-watch-calendar/calendar.ics
 ```
 
-站点和订阅地址需 GitHub Pages 实际部署成功后才可用。也可以从仓库下载 [calendar.ics](docs/calendar.ics)，或阅读 [文字摘要](docs/calendar.md)。
+站点已部署，订阅文件已验证返回 HTTP 200 和 `text/calendar`。也可以从仓库下载 [calendar.ics](docs/calendar.ics)，或阅读 [文字摘要](docs/calendar.md)。
 
 订阅刷新可能延迟，刷新频率和提醒通知由日历客户端控制；导入一个下载的 `.ics` 文件只获得当时的快照。项目没有常驻后台进程，不承诺实时提醒。日历覆盖当次官方响应的范围，不保证全年或全部门店活动。
 

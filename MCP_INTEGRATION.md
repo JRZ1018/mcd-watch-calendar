@@ -29,7 +29,7 @@ Token 通过 [官方开放平台](https://open.mcd.cn/mcp) 的手机号登录、
 
 **日期语义：** `dailyList[].date` 是活动日历的展示日期，不能据此认定活动当天开售或当天截止。每个展示日期上的活动各自生成一个全天条目，标题附“活动日历条目”，说明中保留该含义和来源正文。同一活动在多天出现时不会合并推断其有效期；活动规则仍以官方原文及实际渠道为准。
 
-GitHub Actions 每 6 小时尝试同步，GitHub Pages 发布固定订阅地址。计划运行可能延迟；文件成功发布后，客户端仍按自己的频率刷新和设置提醒。项目没有常驻后台服务。部署后的日历地址为 `https://jrz1018.github.io/mcd-watch-calendar/calendar.ics`，可用性需以实际 Pages 部署结果为准。
+GitHub Actions 每 6 小时尝试同步，GitHub Pages 发布固定订阅地址。计划运行可能延迟；文件成功发布后，客户端仍按自己的频率刷新和设置提醒。项目没有常驻后台服务。日历地址为 `https://jrz1018.github.io/mcd-watch-calendar/calendar.ics`，已验证 HTTP 200、`text/calendar` 类型和 CRLF 格式。首次云端查询、55 项测试和部署均通过，运行记录见 [GitHub Actions](https://github.com/JRZ1018/mcd-watch-calendar/actions/runs/39906545322)。
 
 ## 2026 年 10 月 23 日真实调用记录
 
