@@ -1,6 +1,6 @@
 # 麦麦不忘 · McD Watch Calendar
 
-[在线体验](https://jrz1018.github.io/mcd-watch-calendar/) · [订阅日历](https://jrz1018.github.io/mcd-watch-calendar/calendar.ics) · [报名申请](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1096)
+[在线体验](https://jrz1018.github.io/mcd-watch-calendar/) · [订阅日历](https://jrz1018.github.io/mcd-watch-calendar/calendar.ics) · [官方成功参赛回执](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1096#issuecomment-6358521537)
 
 把麦当劳官方活动日历变成可订阅、可导入的日历，让活动信息出现在平时查看日程的地方。
 
