@@ -3,15 +3,22 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="麦麦不忘：从麦当劳官方 MCP 整理活动日历，按兴趣查看并订阅 ICS。独立参赛作品。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="麦麦不忘 · 把好日子记下来">
+  <meta property="og:description" content="早餐、咖啡、联名周边，选择主题后直接订阅到日历。独立参赛作品。">
+  <meta property="og:url" content="https://jrz1018.github.io/mcd-watch-calendar/">
+  <meta property="og:image" content="https://jrz1018.github.io/mcd-watch-calendar/assets/share-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <title>麦麦不忘 · 把好日子记下来</title>
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <header class="masthead"><a class="brand" href="./" aria-label="麦麦不忘首页"><span class="brand-icon" aria-hidden="true">23<span>◦</span></span>麦麦不忘</a><a class="source-link" href="https://github.com/JRZ1018/mcd-watch-calendar" target="_blank" rel="noopener">项目源码 ↗</a></header>
+  <header class="masthead"><a class="brand" href="./" aria-label="麦麦不忘首页"><span class="brand-icon" aria-hidden="true">23<span>◦</span></span>麦麦不忘</a><a class="source-link star-link" href="https://github.com/JRZ1018/mcd-watch-calendar" target="_blank" rel="noopener" aria-label="在 GitHub 查看源码并自愿点 Star">☆ GitHub Star ↗</a></header>
   <main>
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy"><p class="eyebrow">MCD WATCH / 活动日历</p><h1 id="hero-title">把好日子，<br><span>记下来。</span></h1><p class="intro">从官方活动日历，到你的日程。<br>早餐、新品、联名周边，感兴趣的日子慢慢挑。</p><div class="actions"><a class="button primary" id="subscribe" href="calendar.ics">订阅日历 <span aria-hidden="true">↗</span></a><button class="button secondary" id="copy-feed" type="button">复制订阅地址</button><a class="download" href="calendar.ics" download>下载 ICS ↓</a></div><p id="copy-status" class="feedback" role="status" aria-live="polite"></p></div>
+      <div class="hero-copy"><p class="eyebrow">MCD WATCH / 活动日历</p><h1 id="hero-title">把好日子，<br><span>记下来。</span></h1><p class="intro">从官方活动日历，到你的日程。<br>早餐、新品、联名周边，感兴趣的日子慢慢挑。</p><div class="actions"><a class="button primary" id="subscribe" href="calendar.ics">订阅日历 <span aria-hidden="true">↗</span></a><button class="button secondary" id="copy-feed" type="button">复制订阅地址</button><a class="download" href="calendar.ics" download>下载 ICS ↓</a></div><p id="copy-status" class="feedback" role="status" aria-live="polite"></p><p class="support-note">这个小工具有帮到你吗？<a href="https://github.com/JRZ1018/mcd-watch-calendar" target="_blank" rel="noopener">点个 Star 支持</a>，或<a href="https://github.com/JRZ1018/mcd-watch-calendar/issues" target="_blank" rel="noopener">提个建议 ↗</a></p></div>
       <aside class="date-ticket" aria-label="活动日历状态"><p class="ticket-label">YOUR NEXT LITTLE PLAN</p><div class="ticket-day" id="today-day">—</div><p class="ticket-month" id="today-month">北京时间</p><div class="ticket-rule"></div><div class="ticket-stats"><span><b id="event-count">—</b> 条日历条目</span><span><b id="day-count">—</b> 个展示日期</span></div><p class="ticket-foot">好日子，不必靠记性。</p></aside>
     </section>
     <section class="calendar-section" aria-labelledby="calendar-title">

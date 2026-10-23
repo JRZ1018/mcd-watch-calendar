@@ -4,6 +4,14 @@
 
 把麦当劳官方活动日历变成可订阅、可导入的日历，让活动信息出现在平时查看日程的地方。
 
+**觉得有用，欢迎在仓库右上角点一个 ⭐ Star，也欢迎通过 [Issues](https://github.com/JRZ1018/mcd-watch-calendar/issues) 提建议。**
+
+30 秒体验：[打开网页](https://jrz1018.github.io/mcd-watch-calendar/) → 选择“早餐 / 咖啡 / 联名周边” → 复制订阅地址 → 在支持 ICS 的日历客户端中添加订阅。直接使用已部署的日历，无需自己配置 MCP 或运行 Python。
+
+![麦麦不忘：选择主题，直接订阅](docs/assets/share-preview.png)
+
+[三步使用说明与分享素材](promotion/README.md)
+
 本项目面向希望集中查看活动、按关键词筛选信息的用户。配套 [Skill](skills/mcd-watch-calendar/SKILL.md) 调用麦当劳中国 MCP，保留来源原文，生成标准 `.ics` 日历和 Markdown 摘要。也可以直接运行 Python 命令，无需模型 API。
 
 这是麦当劳程序员创意开发大赛的独立参赛作品，非麦当劳官方产品。开发工具为 Codex；未申报 WorkBuddy 专项奖励。

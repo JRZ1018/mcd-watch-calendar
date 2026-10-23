@@ -2,3 +2,4 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 .feed-note{font-size:10px;line-height:1.9;color:var(--muted);margin:12px 0 0}
 @media(max-width:560px){.ticket-month{font-size:10px;white-space:nowrap}}
+.star-link{border:1px solid var(--ink);padding:9px 13px;background:var(--yellow);font-size:12px}.support-note{font-size:11px;line-height:1.9;color:var(--muted);margin:7px 0 0}.support-note a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}@media(max-width:560px){.star-link{padding:8px;font-size:10px}.support-note{font-size:10px}}
